@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://placehold.co/32x32/9333ea/ffffff?text=K" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krantuim - Global Intelligence Hub</title>
+    <!-- Tailwind CSS CDN for instant styling fallback -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Ensure root and body render dark background immediately to prevent flash/blank render */
+      html, body, #root {
+        min-height: 100vh;
+        background-color: #020617;
+        color: #f8fafc;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-950 text-slate-100 selection:bg-purple-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html> 
